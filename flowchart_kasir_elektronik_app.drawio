@@ -1,0 +1,112 @@
+<mxfile host="65bd71144e">
+    <diagram id="lXeVWc8YDZm5grh5temW" name="Page-1">
+        <mxGraphModel dx="1490" dy="311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="10" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="list_belanja RECORD ARRAY { id INT, nama_ barang STRING, harga INT, jumlah INT}&lt;br&gt;harga INT&lt;br&gt;jumlah INT&lt;br&gt;sum INT&lt;br&gt;pilih INT&lt;br&gt;size INT&lt;br&gt;nama_barang STRING&lt;br&gt;harga_barang INT&lt;br&gt;jumlah_barang INT&lt;br&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-90" y="120" width="520" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="170" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="STORE size = 0&lt;br&gt;STORE pilih = 0&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="320" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="11">
+                    <mxGeometry x="-0.2374" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="pilih !=2" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="125" y="420" width="90" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="OUTPUT&lt;br&gt;&quot;LIST BARANG YANG DIBELI&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="13" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="18">
+                    <mxGeometry x="-0.2475" y="-1" relative="1" as="geometry">
+                        <mxPoint x="1" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="13" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="21">
+                    <mxGeometry x="-0.4252" relative="1" as="geometry">
+                        <mxPoint y="13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="size==0" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="700" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="170" y="1190" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="380" y="1190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="OUTPUT&amp;nbsp;&lt;br&gt;&quot;LIST BARANG YANG DIBELI&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="710" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="20" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="20" target="29">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="330" y="860"/>
+                            <mxPoint x="330" y="1180"/>
+                            <mxPoint x="165" y="1180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="FOR i FROM &quot;0&quot; IN RANGE list_belanja" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;strokeWidth=1;perimeterSpacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="840" width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="23" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="OUTPUT list_belanja[i].id&lt;br&gt;OUTPUT list_belanja[i].nama_barang&lt;br&gt;OUTPUT list_belanja[i].harga_barang&lt;br&gt;OUTPUT list_belanja[i].jumlah_barang" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="920" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="25" target="20">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint y="1100"/>
+                            <mxPoint y="860"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="1070" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="OUTPUT &quot;MENU KASIR&quot;&lt;br&gt;OUTPUT &quot;1.Input Barang&quot;&lt;br&gt;OUTPUT &quot;2. Bayar Barang&quot;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="85" y="1210" width="170" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

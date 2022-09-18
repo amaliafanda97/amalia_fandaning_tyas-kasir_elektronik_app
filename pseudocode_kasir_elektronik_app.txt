@@ -40,4 +40,22 @@ WHILE pilih !=2
             STORE list_belanja[size].nama_barang = nama_barang
             STORE list_belanja[size].harga_barang = harga_barang
             STORE list_belanja[size].jumlah_barang = jumlah_barang
-                
+               ELSE pilih == 2 
+        THEN
+            FOR i FROM "0" IN RANGE list_belanja
+                STORE sum = sum + (list_belanja[i]harga*list_belanja[i].jumlah)
+            END FOR
+            PRINT "Total Harga : "
+            PRINT sum
+            PRINT "Konfirmasi Pembayaran (yes/no): "
+            INPUT confirm
+            STORE confirm
+            IF confirm == "yes"
+                THEN
+                    OUTPUT "Terima Kasih Telah Berbelanja Di Toko Kami"
+                END IF
+            ELSE
+                THEN 
+                    PRINT "MASUKKAN NOMOR DENGAN BENAR"
+            END IF 
+END WHILE   

@@ -2,6 +2,9 @@ READ AND WRITE list_belanja RECORD ARRAY {id INT, nama_barang STRING, harga_bara
 READ AND WRITE confirm STRING
 READ AND WRITE size INT
 READ AND WRITE pilih INT
+READ AND WRITE nama_barang STRING
+READ AND WRITE harga_barang INT
+READ AND WRITE jumlah_barang INT
 
 STORE size = 0
 STORE pilih = 0 
@@ -19,4 +22,22 @@ WHILE pilih !=2
             PRINT list_belanja[i].jumlah_barang
         END FOR
     END IF
-    
+    PRINT "MENU KASIR"
+    PRINT "1. Tambah Barang"
+    PRINT "2. Bayar Barang"
+    INPUT pilih
+    STORE pilih 
+    IF pilih ==1
+        THEN 
+            INPUT nama_barang
+            STORE nama_barang
+            INPUT harga_barang
+            STORE harga_barang
+            INPUT jumlah_barang
+            STORE jumlah_barang
+
+            STORE list_belanja[size].id = size+1
+            STORE list_belanja[size].nama_barang = nama_barang
+            STORE list_belanja[size].harga_barang = harga_barang
+            STORE list_belanja[size].jumlah_barang = jumlah_barang
+                

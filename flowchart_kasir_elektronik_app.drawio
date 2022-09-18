@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="lXeVWc8YDZm5grh5temW" name="Page-1">
-        <mxGraphModel dx="1561" dy="267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2130" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -30,6 +30,15 @@
                 <mxCell id="12" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="11">
                     <mxGeometry x="-0.2374" y="-1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="9" target="90">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1210" y="470"/>
+                            <mxPoint x="1210" y="2610"/>
+                            <mxPoint x="170" y="2610"/>
+                        </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="9" value="pilih !=2" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
@@ -120,6 +129,9 @@
                         <mxPoint x="265" y="1485" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="46" value="FALSE" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="35" target="45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="35" value="pilih == 1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="120" y="1440" width="100" height="90" as="geometry"/>
                 </mxCell>
@@ -129,8 +141,172 @@
                 <mxCell id="40" value="INPUT nama_barang&lt;br&gt;INPUT harga_barang&lt;br&gt;INPUT jumlah_barang" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;rounded=1;strokeWidth=1;" vertex="1" parent="1">
                     <mxGeometry x="290" y="1455" width="165" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="85" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="41">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="170" y="2470" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1160" y="1485"/>
+                            <mxPoint x="1160" y="2470"/>
+                            <mxPoint x="170" y="2470"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="41" value="list_belanja[size].id = size+1&lt;br&gt;list_belanja[size].nama_barang = nama_barang&lt;br&gt;list_belanja[size].harga_barang = harga_barang&lt;br&gt;list_belanja[size].jumlah_barang = jumlah_barang" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1;" vertex="1" parent="1">
-                    <mxGeometry x="530" y="1442.5" width="290" height="85" as="geometry"/>
+                    <mxGeometry x="500" y="1442.5" width="290" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="45" target="47">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="45" target="80">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="170" y="1775" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="81" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="78">
+                    <mxGeometry x="0.1946" y="-2" relative="1" as="geometry">
+                        <mxPoint y="-45" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="pilih == 2" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="1590" width="100" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="47" target="49">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="OUTPUT &quot;Total Harga : &quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="1612.5" width="150" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="49" target="51">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="sum = 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="1617.5" width="70" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="51" target="53">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="FALSE" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="51" target="55">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="515" y="1800"/>
+                            <mxPoint x="515" y="1800"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="size == 0&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="1690" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="53">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="520" y="2190" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="790" y="1730"/>
+                            <mxPoint x="790" y="2190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="OUTPUT&amp;nbsp;&lt;br&gt;&quot;Barang Belanja Kosong&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="1700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="55" target="57">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="55" target="64">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="760" y="1855"/>
+                            <mxPoint x="760" y="2170"/>
+                            <mxPoint x="515" y="2170"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="FOR i FROM &quot;0&quot; IN RANGE list_belanja" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="1830" width="290" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="57" target="60">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="515" y="1990"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="STORE sum = sum +&amp;nbsp;&lt;br&gt;(list_belanja[i].harga_barang*list_belanja[i].jumlah_barang" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="1940" width="360" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="60" target="55">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="290" y="2080"/>
+                            <mxPoint x="290" y="1855"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="2060" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="64" target="71">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="OUTPUT sum&lt;br&gt;OUTPUT &quot;Konfirmasi Pembayaran (yes/no):&quot;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="2220" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="71" target="73">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="INPUT confirm" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="2220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="73" target="75">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="925" y="2310"/>
+                            <mxPoint x="925" y="2310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="73">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1150" y="2250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="87">
+                    <mxGeometry x="-0.23" y="4" relative="1" as="geometry">
+                        <mxPoint x="15" y="4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="confirm ==&quot;yes&quot;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="870" y="2210" width="110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="75">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="925" y="2470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" value="OUTPUT&amp;nbsp;&lt;br&gt;&quot; Terimakasih Telah Berbelanja Di Toko Kami&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="2370" width="330" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="80" target="83">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="2441.54296875" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="OUTPUT&amp;nbsp;&lt;br&gt;&quot;MASUKKAN NOMOR YANG BENAR&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="72.5" y="2030" width="195" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="83" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="460" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-160" y="2530"/>
+                            <mxPoint x="-160" y="470"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="2490.00296875" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="END" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="2640" width="120" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
